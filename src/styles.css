@@ -1,11 +1,85 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0A192F;
+  color: #CCD6F6;
+}
 
-  .hero-img {
-    max-width: 200px;
-    border-radius: 50%;
-  }
-  .section-padding {
-    padding: 60px 0;
-  }
-  .lab-challenge {
-    margin-bottom: 40px;
-  }
+.navbar {
+  background-color: #0A192F !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #CCD6F6 !important;
+}
+
+.nav-link:hover {
+  color: #00FF88 !important;
+}
+
+.home-section {
+  background: linear-gradient(135deg, #0A192F 0%, #1A2A44 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 3px solid #00FF88;
+  transition: transform 0.3s ease;
+}
+
+.hero-img:hover {
+  transform: scale(1.1);
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.lab-challenge {
+  margin-bottom: 40px;
+  background-color: #1A2A44;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card {
+  background-color: #1A2A44;
+  border: none;
+  color: #CCD6F6;
+}
+
+.btn-primary {
+  background-color: #00FF88;
+  border-color: #00FF88;
+  color: #0A192F;
+}
+
+.btn-primary:hover {
+  background-color: #00CC70;
+  border-color: #00CC70;
+}
+
+.btn-outline-primary {
+  border-color: #00FF88;
+  color: #00FF88;
+}
+
+.btn-outline-primary:hover {
+  background-color: #00FF88;
+  color: #0A192F;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in-active {
+  opacity: 1;
+  transform: translateY(0);
+}
