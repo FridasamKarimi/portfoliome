@@ -3,7 +3,9 @@ import Home from './Home.jsx';
 import Resume from './Resume.jsx';
 import Projects from './Projects.jsx';
 import LabChallenges from './LabChallenges.jsx';
-import Contact from './Contact.jsx';
+import Contacts from './Contact.jsx';
+
+
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Resume />
       <Projects />
       <LabChallenges />
-      <Contact />
+      <Contacts />
+
+     
     </div>
   );
 }
